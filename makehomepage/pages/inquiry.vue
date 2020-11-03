@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 <template>
   <v-app>
     <section class="inquiry-top">
@@ -201,6 +200,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Inquiry',
   layout: 'ilayout',
