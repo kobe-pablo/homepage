@@ -57,9 +57,9 @@
             <span class="black--text">開発の相談を受け付けています</span>
             <hr color="#FBC02D">
             <v-btn
-              color="purple darken-2"
-              href="/inquiry/"
               class="ma-2"
+              href="/inquiry/"
+              color="purple daken-2"
               outlined
             >
               お問い合わせへ
@@ -135,9 +135,9 @@
               <li>受託開発</li>
             </ul>
             <v-btn
-              color="purple darken-2"
               href="/activity/"
               class="ma-2"
+              color="purple daken-2"
               outlined
             >
               活動内容へ
