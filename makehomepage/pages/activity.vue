@@ -13,9 +13,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201020_193719.jpg" />
-            </v-card>
+            <img src="~/assets/activity/books.jpg" height="100%" width="100%">
           </v-col>
           <v-col
             cols="12"
@@ -59,9 +57,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201020_193746.jpg" />
-            </v-card>
+            <img src="~assets/activity/kyopro_talk.jpg" height="100%" width="100%">
           </v-col>
         </v-row>
       </v-container>
@@ -79,9 +75,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201017_192552.jpg" />
-            </v-card>
+            <img src="~assets/activity/whiteboard_talk.jpg" height="100%" width="100%">
           </v-col>
           <v-col
             cols="12"
@@ -125,9 +119,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201020_193746.jpg" />
-            </v-card>
+            <img src="~assets/activity/mokumok.jpg" height="100%" width="100%">
           </v-col>
         </v-row>
       </v-container>
@@ -145,9 +137,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201017_190417.jpg" />
-            </v-card>
+            <img src="~assets/activity/azuma_yamazaki.jpg" height="100%" width="100%">
           </v-col>
           <v-col
             cols="12"
@@ -174,7 +164,6 @@ export default {
   layout: 'lactivity'
 }
 </script>
-
 <style scoped>
 @media screen and (max-width: 420px) {
 .odd {

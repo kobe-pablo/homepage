@@ -168,7 +168,7 @@ export default {
   font-weight: bold;
 }
 .hero {
-  background-image: url('/3888153_s.jpg');
+  background-image: url('~assets/default/code_editor.jpg');
   background-size: cover;
   background-position: center center;
   width: 100%;
