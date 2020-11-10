@@ -50,7 +50,7 @@
               class="pa-3"
               color="#f5f5f5"
             >
-              <v-img src="/ryuji.jpg" />
+              <img src="~/assets/results/ryuji.jpg" height="100%" width="100%">
             </v-card>
           </v-col>
           <v-col
@@ -128,7 +128,7 @@
             <v-card
               class="pa-3"
             >
-              <v-img src="/yoshihiro.jpg" />
+              <img src="~assets/results/yoshihiro.jpg" height="100%" width="100%">
             </v-card>
           </v-col>
           <v-col
@@ -207,7 +207,7 @@
               class="pa-3"
               color="#f5f5f5"
             >
-              <v-img src="/yukina.jpg" />
+              <img src="~assets/results/yukina.jpg" height="100%" width="100%">
             </v-card>
           </v-col>
           <v-col
@@ -333,15 +333,21 @@ const news = [
 const cyima = [
   {
     name: 'News1',
-    url: '/image.png'
+    url: require('~/assets/index/villas.png'),
+    height: '100%',
+    width: '100%'
   },
   {
     name: 'News2',
-    url: '/IMG_20201017_185338.jpg'
+    url: require('~/assets/index/bookshelf.jpg'),
+    height: '100%',
+    width: '100%'
   },
   {
     name: 'News3',
-    url: '/IMG_20191018_163414.jpg'
+    url: require('~/assets/index/ta-kun.jpg'),
+    height: '100%',
+    width: '100%'
   }
 ]
 

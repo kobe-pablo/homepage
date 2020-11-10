@@ -81,9 +81,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201017_190326.jpg" />
-            </v-card>
+            <img src="~/assets/index/azuma_ryuji.jpg" height="100%" width="100%">
           </v-col>
           <v-col
             cols="12"
@@ -149,9 +147,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/IMG_20201017_192643.jpg" />
-            </v-card>
+            <img src="~/assets/index/surprised.jpg" height="100%" width="100%">
           </v-col>
         </v-row>
       </v-container>
@@ -168,9 +164,7 @@
             md="7"
             xs="12"
           >
-            <v-card>
-              <v-img src="/image (1).png" />
-            </v-card>
+            <img src="~/assets/index/yutayamazaki.png" height="100%" width="100%">
           </v-col>
           <v-col
             cols="12"
@@ -217,15 +211,21 @@ const news = [
 const cyima = [
   {
     name: 'News1',
-    url: '/image.png'
+    url: require('~/assets/index/villas.png'),
+    height: '100%',
+    width: '100%'
   },
   {
     name: 'News2',
-    url: '/IMG_20201017_185338.jpg'
+    url: require('~/assets/index/bookshelf.jpg'),
+    height: '100%',
+    width: '100%'
   },
   {
     name: 'News3',
-    url: '/IMG_20191018_163414.jpg'
+    url: require('~/assets/index/ta-kun.jpg'),
+    height: '100%',
+    width: '100%'
   }
 ]
 
